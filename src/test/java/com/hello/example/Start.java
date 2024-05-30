@@ -122,6 +122,9 @@ public class Start
 		server.addEventListener(mBeanContainer);
 		server.addBean(mBeanContainer);
 
+		System.out.println("http://localhost:8080");
+		System.out.println();
+
 		try
 		{
 			server.start();
